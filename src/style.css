@@ -1,0 +1,55 @@
+body {
+	margin-left:10px;
+	margin-right:10px;
+	font-family: Arial Black;
+}
+
+#HeadP {
+	background-color:#cac8a0;
+	color:black;
+	font-size:35px;
+	text-align:center;
+	padding:50px;
+	margin-bottom:0px;
+	border-bottom: 3px dotted white;
+}
+
+#kontenuno {
+	background-color:#cac8a0;
+	padding:5px;
+	padding-left:5px;
+	border:10px;
+	color:black;
+	font-size:25px;
+}
+
+#kontendua {
+	background-color:#cac8a0;
+	padding:5px;
+	padding-left:5px;
+	border:10px;
+	color:black;
+	font-size:25px;
+	margin-right:120px;
+}
+
+input {
+	font-size:18px;
+	background-color:white;
+	width:135px;
+	height:55px;
+}
+
+#foot {
+	text-align:center;
+	background-color:#cac8a0;
+	padding:5px;
+	padding-left:5px;
+	border-top:5px dotted;
+	color:black;
+	font-size:15px;
+}
+
+#child {
+	text-transform:capitalize;
+}
