@@ -76,12 +76,12 @@ function ortu(){
 		case "felice":
 			document.getElementById("child").innerHTML = "Felice";
 			document.getElementById("mother").innerHTML = "Mandy Simatupang";
-			document.getElementById("daddy").innerHTML = "-";
+			document.getElementById("daddy").innerHTML = "Meiny Purba";
 			break;
 		case "desmond":
 			document.getElementById("child").innerHTML = "Desmond";
 			document.getElementById("mother").innerHTML = "Mandy Simatupang";
-			document.getElementById("daddy").innerHTML = "-";
+			document.getElementById("daddy").innerHTML = "Meiny Purba";
 			break;
 		case "getCommand.testname":
 			var ch = prompt("Siapa nama anaknya?");
@@ -161,6 +161,11 @@ function ortu(){
 			document.getElementById("child").innerHTML = "Pio Danu Adji";
 			document.getElementById("mother").innerHTML = "-";
 			document.getElementById("daddy").innerHTML = "Adji";
+			break;
+		case "yosafat":
+			document.getElementById("child").innerHTML = "Yosafat Christian Lufi";
+			document.getElementById("mother").innerHTML = "Sri Patmiarsi";
+			document.getElementById("daddy").innerHTML = "Lupfi";
 			break;
 		case null:
 			break;
