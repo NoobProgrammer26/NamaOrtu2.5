@@ -114,7 +114,7 @@ function ortu(){
 			break;
 		case "stevi":
 			document.getElementById("child").innerHTML = "Stevi";
-			document.getElementById("mother").innerHTML = "Efida";
+			document.getElementById("mother").innerHTML = "Efrida Wati Taringan";
 			document.getElementById("daddy").innerHTML = "Teguh";
 			break;
 		case "julius":
@@ -148,7 +148,7 @@ function ortu(){
 			document.getElementById("daddy").innerHTML = "-";
 			break;
 		case "gracia":
-			document.getElementById("child").innerHTML = "Gracia Christanbel";
+			document.getElementById("child").innerHTML = "Gracia Christanbel Pattymahu";
 			document.getElementById("mother").innerHTML = "Vera Ngapiet";
 			document.getElementById("daddy").innerHTML = "";
 			break;
@@ -159,13 +159,18 @@ function ortu(){
 			break;
 		case "pio":
 			document.getElementById("child").innerHTML = "Pio Danu Adji";
-			document.getElementById("mother").innerHTML = "-";
+			document.getElementById("mother").innerHTML = "Novi";
 			document.getElementById("daddy").innerHTML = "Adji";
 			break;
 		case "yosafat":
 			document.getElementById("child").innerHTML = "Yosafat Christian Lufi";
-			document.getElementById("mother").innerHTML = "Sri Patmiarsi";
-			document.getElementById("daddy").innerHTML = "Lupfi";
+			document.getElementById("mother").innerHTML = "Sri Patmiarsi (Aning)";
+			document.getElementById("daddy").innerHTML = "Yamin";
+			break;
+		case "nathan":
+			document.getElementById("child").innerHTML = "Nathaniel Phang Ryan";
+			document.getElementById("mother").innerHTML = "Fanny Tessalonika";
+			document.getElementById("daddy").innerHTML = "Herman";
 			break;
 		case null:
 			break;

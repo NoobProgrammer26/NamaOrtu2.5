@@ -5,7 +5,7 @@ function octounushide(){
 		document.getElementById("Gambar").src = "";
 		document.getElementById("btnoctounus").value = "Show Image";
 	} else if (btn === "Show Image") {
-		document.getElementById("Gambar").src = "https://scontent-sit4-1.cdninstagram.com/vp/43f463068c5827041492eaf85be6a6e9/5BC83BBA/t51.2885-15/e35/22157961_280311375791235_5726509604045586432_n.jpg";
+		document.getElementById("Gambar").src = "img/octounus.jpg";
 		document.getElementById("btnoctounus").value = "Hide Image";
 	} else {
 		alert("An Unknown Error Has been encountered!\nPlease copy and send this code to developer : 0x5U344R\n")
@@ -18,6 +18,7 @@ function selfdestruct(){
 		case "1":
 			document.getElementById("main").style = "display:none;"
 			document.getElementById("badan").style = "background-image:none;"
+			document.getElementById("taitel").innerHTML = "########################################################"
 			break;
 		case "2":
 			alert("That's Good!")
